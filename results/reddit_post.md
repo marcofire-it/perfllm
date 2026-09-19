@@ -99,4 +99,6 @@ Hidden tests: Sonnet 162/162, Opus 162/162, Qwen 160/162. So the automated part 
 - The gap shows up in what a senior reviewer looks at: does it die on weird input, is the code maintainable, do the notes tell the truth. That's where a 27B open model at Q6 is still visibly behind, and where Sonnet 5 edged out Opus 4.6 in this round.
 - Hidden tests are necessary but nowhere near sufficient. Qwen's `nil`-variable bug and the missing `nonlocal` are the kind of thing that ships and bites you in month two.
 
-Happy to share the task specs and hidden test suites if people want to run other models through it. Suggestions for harder round-2 tasks very welcome.
+Everything is on GitHub, MIT licensed: task specs, hidden test suites, reference solutions, the harness, the three models' untouched submissions, the scorecards and the charts: https://github.com/marcofire-it/perfllm
+
+Run your own model through it (`python evaluation/arena.py prepare <model>` builds the isolated work folders) and post the numbers. Suggestions for harder round-2 tasks very welcome.
