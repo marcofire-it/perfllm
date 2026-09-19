@@ -1,0 +1,8 @@
+2024-06-01T10:00:00Z INFO   web    GET /home user=1 latency_ms=100
+2024-06-01T09:00:00Z DEBUG web GET /home user=2 latency_ms=50
+2024-06-01T12:00:00Z ERROR db Query failed q=select latency_ms=900
+2024-06-01T11:00:00Z ERROR web GET /home user=3
+2024-06-01T08:00:00Z WARN db Slow query latency_ms=400
+2024-06-01T13:00:00Z INFO auth Login ok user=9
+2024-06-01T07:00:00+01:00 INFO auth Login ok user=10
+2024-06-01T14:00:00Z ERROR auth Login failed user=11 latency_ms=-5

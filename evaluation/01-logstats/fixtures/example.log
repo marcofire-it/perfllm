@@ -1,0 +1,3 @@
+2024-03-01T12:34:56Z INFO auth Login ok user=42 latency_ms=120
+2024-03-01T12:35:01+02:00 ERROR payments Charge failed order=9 latency_ms=850
+2024-03-01T12:35:02Z WARN auth Token near expiry user=42

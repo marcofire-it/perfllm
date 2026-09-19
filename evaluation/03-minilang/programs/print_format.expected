@@ -1,0 +1,12 @@
+plain string
+["in", "list"]
+[1, "a", [true, nil]]
+nil true false
+
+a 1 [2, "b"] nil <function>
+[[], [[]], [nil]]
+x y z
+[1, 2, 3]
+[["q"]]
+
+multi  empty

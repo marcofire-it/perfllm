@@ -1,0 +1,22 @@
+let a = [1, 2, 3];
+let b = a;
+push(b, 4);
+print(a, len(a));
+print(pop(a), b);
+a[0] = 100;
+print(b[0], a[-1], a[-3]);
+let c = a + [7, 8];
+push(c, 9);
+print(a, c);
+print(range(4), range(0), range(-3), len(range(5)));
+let m = [[1, 2], [3, 4]];
+print(m[0][1], m[1][0], m[-1][-1]);
+m[1][0] = 30;
+print(m);
+let e = [];
+push(e, e == []);
+print(e, [] + [], [1] + [], [[]]);
+fn get_list() { return [10, 20]; }
+print(get_list()[1]);
+let nested = [[fn () { return "deep"; }]];
+print(nested[0][0]());

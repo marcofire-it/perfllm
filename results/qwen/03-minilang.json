@@ -1,0 +1,38 @@
+{
+  "model": "qwen",
+  "task": "03-minilang",
+  "level": 3,
+  "submission_dir": "E:\\sviluppo\\perfllm\\submissions\\qwen\\03-minilang",
+  "evaluated_at": "2026-09-19 10:51:50",
+  "has_notes": true,
+  "has_own_tests": true,
+  "status": "evaluated",
+  "passed": 84,
+  "total": 86,
+  "pass_rate": 0.9767,
+  "by_marker": {
+    "core": {
+      "passed": 21,
+      "failed": 1
+    },
+    "edge": {
+      "passed": 61,
+      "failed": 1
+    },
+    "perf": {
+      "passed": 2,
+      "failed": 0
+    },
+    "other": {
+      "passed": 0,
+      "failed": 0
+    }
+  },
+  "elapsed_s": 2.8,
+  "timed_out": false,
+  "failed_tests": [
+    "test_minilang::test_program[builtins] — perfllm_sub_minilang_7668014451923736136.MiniRuntimeError: use of undeclared variable 'r'",
+    "test_minilang::test_runtime_errors[builtin_arity] — IndexError: list index out of range"
+  ],
+  "pytest_tail": "    @pytest.mark.edge\n\ntest_minilang.py::test_perf_loop_300k\n  test_minilang.py:309: PytestWarning: record_property is incompatible with junit_family 'xunit2' (use 'legacy' or 'xunit1')\n    @pytest.mark.perf\n\ntest_minilang.py::test_perf_fib_25\n  test_minilang.py:319: PytestWarning: record_property is incompatible with junit_family 'xunit2' (use 'legacy' or 'xunit1')\n    @pytest.mark.perf\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ===========================\nFAILED evaluation\\03-minilang\\test_minilang.py::test_program[builtins] - perf...\nFAILED evaluation\\03-minilang\\test_minilang.py::test_runtime_errors[builtin_arity]\n2 failed, 84 passed, 86 warnings in 2.52s"
+}

@@ -1,0 +1,12 @@
+print("plain string");
+print(["in", "list"]);
+print([1, "a", [true, nil]]);
+print(nil, true, false);
+print();
+print("a", 1, [2, "b"], nil, fn () { return 0; });
+print([[], [[]], [nil]]);
+print("x", "y", "z");
+print([1, 2] + [3]);
+print(str([["q"]]));
+print("");
+print("multi", "", "empty");

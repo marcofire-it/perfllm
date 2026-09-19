@@ -1,0 +1,5 @@
+2024-01-01T00:00:00Z INFO web GET /  latency_ms=10
+
+questa riga è rotta
+2024-01-01T00:00:00Z FATAL web boom
+2023-12-31T23:00:00-02:00 ERROR web GET /  latency_ms=abc

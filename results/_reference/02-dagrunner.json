@@ -1,0 +1,35 @@
+{
+  "model": "_reference",
+  "task": "02-dagrunner",
+  "level": 2,
+  "submission_dir": "E:\\sviluppo\\perfllm\\evaluation\\reference\\02-dagrunner",
+  "evaluated_at": "2026-09-19 13:13:19",
+  "has_notes": false,
+  "has_own_tests": false,
+  "status": "evaluated",
+  "passed": 42,
+  "total": 42,
+  "pass_rate": 1.0,
+  "by_marker": {
+    "core": {
+      "passed": 28,
+      "failed": 0
+    },
+    "edge": {
+      "passed": 9,
+      "failed": 0
+    },
+    "perf": {
+      "passed": 5,
+      "failed": 0
+    },
+    "other": {
+      "passed": 0,
+      "failed": 0
+    }
+  },
+  "elapsed_s": 4.5,
+  "timed_out": false,
+  "failed_tests": [],
+  "pytest_tail": "\ntest_dagrunner.py::test_serial_execution_follows_topological_order\n  test_dagrunner.py:591: PytestWarning: record_property is incompatible with junit_family 'xunit2' (use 'legacy' or 'xunit1')\n    @pytest.mark.perf\n\ntest_dagrunner.py::test_chain_of_200_tasks\n  test_dagrunner.py:616: PytestWarning: record_property is incompatible with junit_family 'xunit2' (use 'legacy' or 'xunit1')\n    @pytest.mark.perf\n\ntest_dagrunner.py::test_500_independent_tasks\n  test_dagrunner.py:631: PytestWarning: record_property is incompatible with junit_family 'xunit2' (use 'legacy' or 'xunit1')\n    @pytest.mark.perf\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n42 passed, 42 warnings in 4.16s"
+}

@@ -1,0 +1,35 @@
+{
+  "model": "sonnet",
+  "task": "03-minilang",
+  "level": 3,
+  "submission_dir": "E:\\sviluppo\\perfllm\\submissions\\sonnet\\03-minilang",
+  "evaluated_at": "2026-09-19 10:52:01",
+  "has_notes": true,
+  "has_own_tests": true,
+  "status": "evaluated",
+  "passed": 86,
+  "total": 86,
+  "pass_rate": 1.0,
+  "by_marker": {
+    "core": {
+      "passed": 22,
+      "failed": 0
+    },
+    "edge": {
+      "passed": 62,
+      "failed": 0
+    },
+    "perf": {
+      "passed": 2,
+      "failed": 0
+    },
+    "other": {
+      "passed": 0,
+      "failed": 0
+    }
+  },
+  "elapsed_s": 2.2,
+  "timed_out": false,
+  "failed_tests": [],
+  "pytest_tail": "\ntest_minilang.py::test_cli_missing_file\n  test_minilang.py:297: PytestWarning: record_property is incompatible with junit_family 'xunit2' (use 'legacy' or 'xunit1')\n    @pytest.mark.edge\n\ntest_minilang.py::test_perf_loop_300k\n  test_minilang.py:309: PytestWarning: record_property is incompatible with junit_family 'xunit2' (use 'legacy' or 'xunit1')\n    @pytest.mark.perf\n\ntest_minilang.py::test_perf_fib_25\n  test_minilang.py:319: PytestWarning: record_property is incompatible with junit_family 'xunit2' (use 'legacy' or 'xunit1')\n    @pytest.mark.perf\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n86 passed, 86 warnings in 1.85s"
+}

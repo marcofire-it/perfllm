@@ -1,0 +1,12 @@
+print(1 + 2 * 3);
+print((1 + 2) * 3);
+print(-2 * 3);
+print(not true or true);
+print(1 < 2 == true);
+print(10 - 3 - 2);
+print(100 / 10 / 2);
+print(2 + 3 * 4 - 5 % 3);
+print(1 + 2 == 3 and 4 > 3);
+print(- -5, not not false);
+print(7 % 3 * 2, 2 * 7 % 3);
+print(1 == 1 == true);

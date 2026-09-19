@@ -1,0 +1,8 @@
+int bool string list nil function function
+1 true false nil abc [1, "a", nil] -5
+42 -7 0 -3 7
+5 0 2 0
+12 100
+nil nil
+5 string int
+true list

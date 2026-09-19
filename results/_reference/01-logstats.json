@@ -1,0 +1,35 @@
+{
+  "model": "_reference",
+  "task": "01-logstats",
+  "level": 1,
+  "submission_dir": "E:\\sviluppo\\perfllm\\evaluation\\reference\\01-logstats",
+  "evaluated_at": "2026-09-19 13:13:15",
+  "has_notes": false,
+  "has_own_tests": false,
+  "status": "evaluated",
+  "passed": 34,
+  "total": 34,
+  "pass_rate": 1.0,
+  "by_marker": {
+    "core": {
+      "passed": 17,
+      "failed": 0
+    },
+    "edge": {
+      "passed": 16,
+      "failed": 0
+    },
+    "perf": {
+      "passed": 1,
+      "failed": 0
+    },
+    "other": {
+      "passed": 0,
+      "failed": 0
+    }
+  },
+  "elapsed_s": 3.6,
+  "timed_out": false,
+  "failed_tests": [],
+  "pytest_tail": "test_logstats.py::test_exit_1_invalid_args_no_stdout[args4]\ntest_logstats.py::test_exit_1_invalid_args_no_stdout[args5]\n  test_logstats.py:339: PytestWarning: record_property is incompatible with junit_family 'xunit2' (use 'legacy' or 'xunit1')\n    @pytest.mark.edge\n\ntest_logstats.py::test_unicode_message_and_service\n  test_logstats.py:354: PytestWarning: record_property is incompatible with junit_family 'xunit2' (use 'legacy' or 'xunit1')\n    @pytest.mark.edge\n\ntest_logstats.py::test_perf_200k_lines\n  test_logstats.py:365: PytestWarning: record_property is incompatible with junit_family 'xunit2' (use 'legacy' or 'xunit1')\n    @pytest.mark.perf\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n34 passed, 34 warnings in 2.97s"
+}
